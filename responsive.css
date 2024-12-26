@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  overflow: auto;
+  padding: 15px;
+}
+
+nav {
+  background-color: #b71c1c;
+  padding: 5px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+aside {
+  text-align: center;
+  width: 25%;
+  float: left;
+
+}
+
+footer {
+  background-color: #b71c1c;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron a {
+  text-decoration: none;
+  color: white;
+}
+
+.jumbotron a:hover {
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  color: #b71c1c;
+}
+
+.jumbotron {
+  background-color: #f44336;
+  /*untuk merubah warna latar*/
+  font-size: 20px;
+  /*untuk merubah ukuran font*/
+  padding: 50px;
+  /*untuk memberi jarak*/
+  text-align: center;
+  /*untuk mengatur letak teks*/
+  color: white;
+  /*untuk merubah warna teks*/
+}
+
+.card {
+  border: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 gainsboro;
+}
+
+.content {
+  width: 75%;
+  float: right;
+}
+
+.text-bold {
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.gambar {
+  border-radius: 30%;
+}
+
+@media screen and (max-width: 922px) {
+
+  .content,
+  aside,
+  header {
+    width: 100%;
+  }
+
+}
